@@ -1,0 +1,14 @@
+\left( \frac{\partial z}{\partial r} \right) ^2 & \\ 
+                       & = \left( \frac{\partial f}{\partial x} \cdot \cos{\theta} + \frac{\partial f}{\partial y} \cdot \sin{\theta} \right)^2 \\
+                        & = \left( \frac{\partial f}{\partial x} \right)^2 \cdot \cos^2{\theta} + 2 
+                        \frac{\partial f}{\partial y} \cdot \cos{\theta} \cdot \sin{\theta} + \left( 
+                        \frac{\partial f}{\partial y} \right)^2 \cdot \sin^2{\theta} \\
+                        \left( \frac{\partial z}{\partial \theta} \right )^2 \\ & = \left( \frac{\partial f}{\partial x} \cdot (-r \cdot \sin{\theta}) + \frac{\partial f}{\partial y} \cdot (r \cdot \cos{\theta}) \right)^2 \\
+                        & = \left( \frac{\partial f}{\partial x} \right)^2 \cdot r^2 \cdot \sin^2{\theta} - 2 \cdot \frac{\partial f}{\partial x} \cdot \frac{\partial f}{\partial y} \cdot r^2 \cdot \sin{\theta} \cdot \cos{\theta} + \left( \frac{\partial f}{\partial y} \right)^2 \cdot r^2 \cdot \cos^2{\theta} \\
+                        \rightarrow & \frac{1}{r^2} \left( \frac{\partial z}{\partial \theta} \right)^2 = 
+                        \left( \frac{\partial f}{\partial x} \right)^2 \cdot \left( \sin^2{\theta} - 2 \cdot \frac{\partial f}{\partial x} \right) \cdot \frac{\partial f}{\partial y} \cdot \sin{\theta} \cdot \cos{\theta} + \left( \frac{\partial f}{\partial y} \right)^2 \cdot \cos^2{\theta} \\
+                        \rightarrow & \left( \frac{\partial z}{\partial r} \right)^2 + \frac{1}{r^2} \cdot \left( \frac{\partial z}{\partial \theta} \right)^2 = \\
+                         \left( \frac{\partial f}{\partial x} \right)^2 \cdot \cos^2{\theta} + 2 \cdot \frac{\partial f}{\partial x} \cdot \frac{\partial f}{\partial y} \cdot \cos{\theta} \cdot \sin{\theta} + \left( \frac{\partial f}{\partial y} \right)^2 \cdot \sin^2{\theta} + \left( \frac{\partial f}{\partial y} \right)^2 \cdot \sin^2{\theta} - \\
+                         - 2 \cdot \frac{\partial f}{\partial x} \cdot \frac{\partial f}{\partial y} \cdot \cos{\theta} \cdot \sin{\theta} + \left( \frac{\partial f}{\partial y} \right)^2 \cdot \cos^2{\theta} \\
+                         & = \left( \frac{\partial f}{\partial x} \right)^2 \cdot (\cos^2{\theta} + \sin^2{\theta}) + \left( \frac{\partial f}{\partial y} \right)^2 \cdot (\sin^2{\theta} + \cos^2{\theta}) \\
+                        & =\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2 

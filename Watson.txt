@@ -1,0 +1,25 @@
+Links para descargar los software
+	https://git-scm.com/
+	https://www.npmjs.com/get-npm
+
+
+
+1. agregar una llave ssh
+2. Descargar Git
+3. Ya descargado
+Ejecutar
+ -'git clone liga_del_proyecto'
+ - Enter	
+ - Nombre del archivo GCS-Informative-Chatbot
+ - ya dentro del archivo ejecutar
+	npm install
+para que se pueda ejecutar 
+ - ya instalado correr 'npm start'
+
+*Al meterse al archivo raiz para correrlo y tambien el cliente
+	debe ser en el localhost 3000
+
+Cuando trabajan varios desarrolladores en git es bueno
+trabajar por ramas individuales
+ -git branch
+
